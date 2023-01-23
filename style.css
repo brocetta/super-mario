@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color:greenyellow;
+    text-align: center;
+    padding-top: 30px;
+}
+
+body{
+    background-image: url("./bg.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    position: relative;
+    min-height: 100vh;
+    background-position: -4rem;
+}
+img{
+    height: 10%;
+    position: absolute;
+    transition: 300ms;
+    bottom: 17%;
+    left: 40%;
+}
+.marioStatic {
+    display: block;
+}
+
+.marioRunning {
+    display: none;
+}
+
+button {
+    padding: 60px 60px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    color: greenyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    bottom: 14%;
+    left: 43%;
+    transform: translate(-50%, 0);    
+}
+button:focus {
+    outline: none;
+}
